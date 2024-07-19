@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 2px solid black;
+    margin: 8% auto;
+    padding: 20px;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/background.jpg); */
+    background-size: cover;
+
+}
+
+.sign-up-form h1{
+    color: green;
+    margin-bottom: 30px;
+}
+.input-box{
+    padding: 10px;
+    margin: 10px 0;
+    width: 93%;
+    outline: none;
+    overflow: hidden;
+}
+.signup-btn,
+.signcode-btn
+{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+.OR,
+.password{
+    text-align: center;
+}
+.password{
+    margin: 10px;
+}
+.remember,
+.newto{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.newto{
+    margin: 10px;
+}
